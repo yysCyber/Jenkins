@@ -106,7 +106,7 @@ Jenkins can deploy automatically when you submit codes by Git.
   rpm -q -i git
   ```
 
-  ![rpm](.\img\1.jpg)
+  ![rpm](./img/1.jpg)
 
   
 
@@ -114,7 +114,7 @@ Jenkins can deploy automatically when you submit codes by Git.
   whereis git
   ```
 
-  ![whereis](.\img\2.jpg)
+  ![whereis](./img/2.jpg)
 
 
 
@@ -142,7 +142,7 @@ The target of installing Tomcat is helping us understand Jenkins CI&CD, installi
   systemctl restart firewalld
   ```
 
-  ![firewall](.\img\3.jpg)
+  ![firewall](./img/3.jpg)
 
   
 
@@ -150,7 +150,7 @@ The target of installing Tomcat is helping us understand Jenkins CI&CD, installi
 
   Start Tomcat server using `%TOMCAT_PATH%/bin/startup.sh`:
 
-  ![Tomcat](.\img\4.jpg)
+  ![Tomcat](./img/4.jpg)
 
   
 
@@ -158,7 +158,7 @@ The target of installing Tomcat is helping us understand Jenkins CI&CD, installi
 
   Open the browser and input `http://ip:8080`:
 
-  ![Tomcat](.\img\5.jpg)
+  ![Tomcat](./img/5.jpg)
 
   
 
@@ -189,7 +189,7 @@ There are many methods that install Jenkins in Linux ([https://www.jenkins.io/do
   nohup java -jar /usr/local/jenkins/jenkins.war --httpPort=8777 > /usr/local/jenkins/jenkins_open.log 2>&1 &
   ```
 
-  ![Run Jenkins](.\img\6.jpg)
+  ![Run Jenkins](./img/6.jpg)
 
   
 
@@ -197,7 +197,7 @@ There are many methods that install Jenkins in Linux ([https://www.jenkins.io/do
 
   Wait a moment, open the log file. If it has error, you can see the information about errors in the log. If there is no error, find the initial password in the log:
 
-  ![Log](.\img\7.jpg)
+  ![Log](./img/7.jpg)
 
   
 
@@ -219,7 +219,7 @@ There are many methods that install Jenkins in Linux ([https://www.jenkins.io/do
 
   Open the browser and input `http://ip:port` (example: `http://192.168.3.43:8777`), input initial password, then click "Continue" button:
 
-  ![](.\img\8.jpg)
+  ![](./img/8.jpg)
 
   
 
@@ -227,11 +227,11 @@ There are many methods that install Jenkins in Linux ([https://www.jenkins.io/do
 
   The best choice is "Install suggest plugins", click it and wait for finishing installing plugins:
 
-  ![](.\img\9.jpg)
+  ![](./img/9.jpg)
 
   
 
-  ![](.\img\10.jpg)
+  ![](./img/10.jpg)
 
   
 
@@ -239,7 +239,7 @@ There are many methods that install Jenkins in Linux ([https://www.jenkins.io/do
 
   Cteate a user as administrator, then click the blue button at bottom:
 
-  ![](.\img\11.jpg)
+  ![](./img/11.jpg)
 
   
 
@@ -247,7 +247,7 @@ There are many methods that install Jenkins in Linux ([https://www.jenkins.io/do
 
   Config interface, default is OK, then click the blue button at bottom:
 
-  ![](.\img\12.jpg)
+  ![](./img/12.jpg)
 
   
 
@@ -255,11 +255,11 @@ There are many methods that install Jenkins in Linux ([https://www.jenkins.io/do
 
   Install successfully, click "Start using Jenkin":
 
-  ![](.\img\13.jpg)
+  ![](./img/13.jpg)
 
   
 
-  ![](.\img\14.jpg)
+  ![](./img/14.jpg)
 
 
 
@@ -284,11 +284,11 @@ nohup java -jar war_package_path --httpPort=port > log_file_path 2>&1 &
 
 Input `http://ip:port/restart` (example: `http://192.168.3.43:8777/restart`), then ask you if Jenkins restarts, click "Yes" button:
 
-![](.\img\15.jpg)
+![](./img/15.jpg)
 
 
 
-![](.\img\16.jpg)
+![](./img/16.jpg)
 
 
 
@@ -296,7 +296,7 @@ Input `http://ip:port/restart` (example: `http://192.168.3.43:8777/restart`), th
 
 Input `https://ip:port/exit`(example: `http://192.168.3.43:8777/exit`),  then click "RETRY USE POST" button in the page:
 
-![](.\img\17.jpg)
+![](./img/17.jpg)
 
 
 
@@ -312,7 +312,7 @@ Install plugins:
 
   Click "Manage Jenkins" in the main page of Jenkins, or input `http://ip:port/manage` (example: `http://192.168.3.43:8777/manage`):
 
-  ![](.\img\18.jpg)
+  ![](./img/18.jpg)
 
   
 
@@ -320,7 +320,7 @@ Install plugins:
 
   Click "Manage Plugins", or input `http://ip:port/pluginManager` (example: `http://192.168.3.43:8777/pluginManager`):
 
-  ![](.\img\19.jpg)
+  ![](./img/19.jpg)
 
   
 
@@ -328,14 +328,14 @@ Install plugins:
 
   Click "Available" tab, fill the name of plugins that you want to install in the *search* input:
 
-  ![](.\img\20.jpg)
+  ![](./img/20.jpg)
 
   
 
 - For example, install "Green ball":
 
-  ![](.\img\20.jpg)
+  ![](./img/20.jpg)
 
   
 
-  ![](.\img\22.jpg)
+  ![](./img/22.jpg)
