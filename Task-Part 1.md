@@ -39,10 +39,9 @@ Part 1：
 
 Part 2:
 
-- 2.5. Job of Jenkins.
-- 2.6. SSH of Jenkins.
-- 2.7. Node of Jenkins.
-- 2.8. Git of Jenkins.
+- 2.5. Item of Jenkins.
+- 2.6. Node of Jenkins.
+- 2.7. Git of Jenkins.
 
 
 
